@@ -246,6 +246,28 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Task.Common\Task.Common.csproj">
+      <Project>{2619f57d-8d92-4188-8d7e-49af55ca98d8}</Project>
+      <Name>Task.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task.Data.SqlServer\Task.Data.SqlServer.csproj">
+      <Project>{cbc81a72-f1ea-434b-83cf-484395ae0e6a}</Project>
+      <Name>Task.Data.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task.Data\Task.Data.csproj">
+      <Project>{36ee0a1f-fd3e-4be5-bb35-fac1f5b0f617}</Project>
+      <Name>Task.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task.Web.Api.Models\Task.Web.Api.Models.csproj">
+      <Project>{a4b19a4e-14f3-4a56-82ee-324ae2017439}</Project>
+      <Name>Task.Web.Api.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task.Web.Common\Task.Web.Common.csproj">
+      <Project>{6af56590-0f69-4caa-94a9-62cf64dd3d37}</Project>
+      <Name>Task.Web.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Task.Common\Task.Common.csproj" />
+    <ProjectReference Include="..\Task.Data\Task.Data.csproj" />
+  </ItemGroup>
+
 </Project>
